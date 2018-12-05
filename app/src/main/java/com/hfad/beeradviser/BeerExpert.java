@@ -3,9 +3,6 @@ package com.hfad.beeradviser;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by davidg on 28/04/2017.
- */
 
 public class BeerExpert {
     List<String> getBrands(String color) {

@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="16dp"
     android:orientation="vertical"
-    tools:context="com.hfad.beeradviser.FindBeerActivity"
-    >
+    android:padding="16dp"
+    tools:context="com.hfad.beeradviser.FindBeerActivity">
 
     <Spinner
         android:id="@+id/color"
@@ -33,7 +31,6 @@
         android:layout_height="wrap_content"
         android:layout_gravity="start"
         android:layout_margin="5dp"
-        android:text="@string/brands"
-        />
+        android:text="@string/brands" />
 
 </LinearLayout>
